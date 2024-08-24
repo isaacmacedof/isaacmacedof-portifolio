@@ -1,0 +1,37 @@
+.header {
+  align-items: center;
+  color: #FFAD31;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin: 0;
+  font-family: 'Gloucester', sans-serif;
+  padding-left: 7.5%;
+  padding-right: 16.5%;
+}
+
+.nav-header {
+  display: flex;
+  font-size: 1rem;
+  gap: 37px;
+}
+
+.header-link {
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:hover {
+  color: #ffffff
+}
+
+.line-yellow {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  background-color: #FFAD31;
+  height: 2px;
+  width: 100%;
+}
