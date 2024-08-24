@@ -3,11 +3,70 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin-left: 30%;
+}
+
+.article-about-me-title {
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 3.46rem;
+  margin-left: 43%;
+}
+
+.about-title {
+  font-size: 68px;
+  color: #fff;
+  margin-bottom: 0rem;
+}
+
+.article-about-me-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 41.4%;
 }
 
 .about-des01 {
+  font-size: 32px;
   word-wrap: break-word; /* Quebra palavras longas */
   word-break: break-word; /* Garante que palavras longas sejam quebradas */
   white-space: normal; /* Permite a quebra de linha */
+}
+
+.line-yellow-about {
+  background-color: #FFAD31;
+  height: 2px;
+  width: 59vw;
+}
+
+.line-yellow-about-left-line {
+  background-color: #FFAD31;
+  width: 4.5%;
+  height: 2px;
+  margin-left: -10px;
+}
+
+.button-contact-about {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 4.25rem;
+  padding: 0;
+  margin-left: 80%;
+  margin-top: 9%;
+  position: relative;
+}
+
+.lines-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98.8vw;
+}
+
+.line-Yellow-aside2 {
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  background-color: #FFAD31;
+  height: 100%;
+  width: 2px;
 }

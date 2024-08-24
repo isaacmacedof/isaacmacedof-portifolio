@@ -9,6 +9,7 @@ const Home = () => {
       <HeaderBlack />
       <div className="line-Yellow-aside"></div>
       <HomeComponentBlack />
+      <div className="line-Yellow-aside2"></div>
       <AboutMeBlack />
     </main>
   )
