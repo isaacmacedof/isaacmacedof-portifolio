@@ -1,0 +1,13 @@
+.section-about-me {
+  color: var(--primary-500);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 30%;
+}
+
+.about-des01 {
+  word-wrap: break-word; /* Quebra palavras longas */
+  word-break: break-word; /* Garante que palavras longas sejam quebradas */
+  white-space: normal; /* Permite a quebra de linha */
+}
