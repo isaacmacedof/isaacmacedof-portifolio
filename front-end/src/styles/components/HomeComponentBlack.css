@@ -1,0 +1,89 @@
+#apresentation-basic {
+    color: #FFAD31;
+    font-size: 56px;
+}
+
+.section-apresentation {
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  margin-left: 8.51%;
+}
+
+.article-containt-apresentation {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 9.95%;
+}
+
+#home-my-name {
+  color: #ffffffff;
+  font-size: 68px;
+  font-weight: bold;
+  margin-top: -65px;
+  margin-left: -15px;
+  margin-bottom: 0rem;
+}
+
+#home-title {
+  color: #FFAD31;
+  font-size: 118px;
+  margin-top: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.button-contact {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 4.25rem;
+  padding: 0;
+  justify-content: center;
+  margin-top: 27%;
+  margin-left: 5%;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.art-button {
+  background: #FFAD31;
+  border-radius: 30px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 41px;
+  width: 138px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-button-contact {
+  color: #000000;
+  background-color: #FFAD31;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  box-shadow: #000000 1px 1px 300px;
+  border-radius: 30px;
+  height: 41px;
+  width: 138px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-button-contact:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.art-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}

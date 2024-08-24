@@ -1,10 +1,16 @@
 * {
   background-color: black;
+  color:#FFAD31;
 }
 
 @font-face {
   font-family: 'Gloucester';
   src: url('../../fonts/gloucester-mt-extra-condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Britannic';
+  src: url('../../fonts/britannic-bold.ttf') format('truetype');
 }
 
 .line-Yellow-aside {
@@ -14,4 +20,12 @@
   background-color: #FFAD31;
   height: 100%;
   width: 2px;
+}
+
+.gloucester {
+  font-family: 'Gloucester', sans-serif;
+}
+
+.britannic {
+  font-family: 'Britannic', sans-serif;
 }
