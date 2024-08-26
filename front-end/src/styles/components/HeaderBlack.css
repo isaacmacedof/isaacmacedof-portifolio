@@ -3,17 +3,18 @@
   color: #FFAD31;
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
   margin: 0;
   font-family: 'Gloucester', sans-serif;
-  padding-left: 7.5%;
-  padding-right: 16.5%;
+  max-width: 1366px;
+  z-index: 1;
 }
 
 .nav-header {
   display: flex;
   font-size: 1rem;
   gap: 37px;
+  margin-left: 560px;
 }
 
 .header-link {
