@@ -1,27 +1,52 @@
 .section-about-me {
-  color: var(--primary-500);
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 1366px;
+  max-height: 768px;
 }
 
 .article-about-me-title {
-  font-size: 56px;
-  font-weight: bold;
-  margin-top: 3.46rem;
-  margin-left: 43%;
+  margin-top: 89px;
+  margin-left: 0%;
 }
 
 .about-title {
-  font-size: 68px;
   color: #fff;
-  margin-bottom: 0rem;
+  font-size: 64px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .article-about-me-text {
   display: flex;
   flex-direction: column;
-  margin-left: 41.4%;
+  max-height: 357px;
+  max-width: 859px;
+  background-color: #FFAD312E;
+  margin-top: 87px;
+  padding-top: 0px;
+  padding-left: 26px;
+  padding-right: 3px;
+  margin-right: 17px;
+}
+
+.article-about {
+  display: flex;
+}
+
+.aside-programer-about-me {
+  margin-top: -60px;
+  display: block !important;
+  background: none;
+  margin-left: 7px;
+}
+
+.img-programer-about-me {
+  width: 393px;
+  height: 626px;
+  border-radius: 141px;
 }
 
 .about-des01 {
@@ -29,19 +54,52 @@
   word-wrap: break-word; /* Quebra palavras longas */
   word-break: break-word; /* Garante que palavras longas sejam quebradas */
   white-space: normal; /* Permite a quebra de linha */
+  background: none;
 }
 
-.line-yellow-about {
+.line-yellow-about-right-line {
   background-color: #FFAD31;
   height: 2px;
-  width: 59vw;
+  width: 854px;
 }
 
 .line-yellow-about-left-line {
   background-color: #FFAD31;
-  width: 4.5%;
+  width: 91px;
   height: 2px;
   margin-left: -10px;
+}
+
+.art-button-about {
+  background: #FFAD31;
+  border-radius: 30px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 41px;
+  width: 138px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-button-contact-about {
+  color: #000000;
+  background-color: #FFAD31;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  box-shadow: #000000 1px 1px 300px;
+  border-radius: 30px;
+  height: 41px;
+  width: 138px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .button-contact-about {
@@ -49,17 +107,9 @@
   border: none;
   cursor: pointer;
   height: 4.25rem;
-  padding: 0;
-  margin-left: 80%;
-  margin-top: 9%;
   position: relative;
-}
-
-.lines-about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 98.8vw;
+  margin-top: 90px;
+  margin-left: 672px;
 }
 
 .line-Yellow-aside2 {
