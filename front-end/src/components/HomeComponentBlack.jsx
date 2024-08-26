@@ -37,6 +37,7 @@ const HomeComponentBlack = () => {
           </button>
         </div>
         <div className="home-bg-purple"></div>
+        <div className='home-bg-quadrados' />
       </article>
     </section>
   );

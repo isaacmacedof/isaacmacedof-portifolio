@@ -23,9 +23,9 @@
 
 .home-text-apresentation {
   margin-top: 120px;
-  margin-left: -130px;
+  margin-left: 133px;
   margin-bottom: 47px;
-  z-index: 1;
+  z-index: 2;
   background: none;
 }
 
@@ -37,7 +37,7 @@
   margin-top: -65px;
   margin-left: -10px;
   margin-bottom: 0rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 #home-title {
@@ -46,7 +46,7 @@
   font-size: 118px;
   margin-top: 30px;
   margin-bottom: 85px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .button-contact {
@@ -99,11 +99,23 @@
   background-size: cover;
   background-position: center;
   opacity: 0.5;
-  margin-top: 80px;
+  margin-top: 66px;
   margin-left: -230px;
-  margin-right: 20px;
-  width: 648px;
-  height: 648px;
+  width: 638px;
+  height: 638px;
+  rotate: 7deg;
+  background-color: none;
+  z-index: 1;
+}
+
+.home-bg-quadrados {
+  background-image: url('../../images/quadrados.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 324px;
+  width: 446px;
+  height: 466px;
+  margin-left: -140px;
   z-index: 0;
 }
 

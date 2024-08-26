@@ -1,0 +1,138 @@
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1366px;
+  max-height: 768px;
+  margin-top: 123px;
+}
+
+.skills-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-skills {
+  margin-top: 128px;
+}
+
+.bg-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin-bottom: -767px;
+  max-width: 1366px;
+  max-height: 768px;
+  z-index: 1;
+}
+
+.description-skill-countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin-top: 0px;
+  width: 700px;
+  height: 370px;
+}
+
+.button-contact-skill {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 4.25rem;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  justify-content: center;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+  z-index: 2;
+}
+
+.img-bg-skills{
+  width: 1366px;
+  height: 768px;
+  background: none;
+}
+
+.skills-bg-line-left {
+  background-color: #FFAD31;
+  width: 125px;
+  height: 2px;
+}
+
+.skills-bg-line-right {
+  background-color: #FFAD31;
+  width: 1060px;
+  height: 2px;
+}
+
+.skills-list {
+  display: flex;
+  background: none;
+  flex-direction: row;
+  max-width: 1366px;
+}
+
+.container-description-skill {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  margin-left: 95px;
+  width: 848px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.description-skill-text {
+  font-size: 32px;
+}
+
+.container-images-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Permite a quebra de linha */
+  justify-content: space-between; /* Distribui igualmente as skills na linha */
+  max-width: 548px;
+  margin-bottom: 100px;
+  background: none;
+  margin-top: 90px;
+  gap: 11.31px;
+}
+
+.skill { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  width: 117px;
+  margin: 0px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+.skill-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.img-skill {
+  width: 117.14px;
+  height: auto;
+  background: none;
+}

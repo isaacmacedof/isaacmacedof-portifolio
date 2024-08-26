@@ -5,6 +5,8 @@
   align-items: center;
   max-width: 1366px;
   max-height: 768px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .article-about-me-title {
