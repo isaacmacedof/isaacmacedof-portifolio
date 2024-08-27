@@ -27,15 +27,19 @@
 }
 
 .projects-bg-line-left {
+  position: relative;
+  right: 4px;
   background-color: #FFAD31;
-  width: 1003px;
+  width: 970px;
   height: 2px;
   z-index: 1;
 }
 
 .projects-bg-line-right {
+  position: relative;
+  left: 4px;
   background-color: #FFAD31;
-  width: 189px;
+  width: 180px;
   height: 2px;
   z-index: 1;
 }

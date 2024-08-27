@@ -40,6 +40,16 @@
   z-index: 2;
 }
 
+.home-bg-yellow-left {
+  position: relative;
+  top: -30px;
+  left: 16px;
+  background-color: #FFAD31;
+  height: 7740px;
+  width: 2px;
+  z-index: 1;
+}
+
 #home-title {
   color: #FFAD31;
   background: none;

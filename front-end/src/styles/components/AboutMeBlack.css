@@ -60,9 +60,10 @@
 }
 
 .line-yellow-about-right-line {
+  position: relative;
   background-color: #FFAD31;
   height: 2px;
-  width: 854px;
+  width: 870px;
 }
 
 .line-yellow-about-left-line {

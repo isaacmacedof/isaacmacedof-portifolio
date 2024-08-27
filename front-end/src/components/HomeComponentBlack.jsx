@@ -23,6 +23,7 @@ const HomeComponentBlack = () => {
 
   return (
     <section className='section-apresentation'>
+      <div className='home-bg-yellow-left' />
       <article className='article-containt-apresentation'>
         <div className="home-text-apresentation">
           <p id='apresentation-basic' className='gloucester'>Olá eu sou</p>

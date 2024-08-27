@@ -3,6 +3,7 @@ import '../styles/components/HeaderBlack.css'
 const Header = () => {
   return (
     <header className='header'>
+      <div className='line-yellow-left' / >
       <section className='mid-header'>
         <nav className='nav-header'>
             <a className='header-link' href="#about">About me</a>

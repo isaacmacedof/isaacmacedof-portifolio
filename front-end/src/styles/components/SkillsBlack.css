@@ -63,14 +63,19 @@
 }
 
 .skills-bg-line-left {
+  position: relative;
   background-color: #FFAD31;
-  width: 125px;
+  width: 170px;
+  left: -10px;
+  margin-right: 0;
   height: 2px;
 }
 
 .skills-bg-line-right {
+  position: relative;
   background-color: #FFAD31;
-  width: 1060px;
+  left: 7px;
+  width: 1044px;
   height: 2px;
 }
 

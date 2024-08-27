@@ -29,10 +29,10 @@
 }
 
 .line-yellow {
-  position: absolute;
-  top: 34px;
+  position: relative;
+  top: 6px;
   right: 0;
   background-color: #FFAD31;
   height: 2px;
-  width: 100%;
+  width: 1366px;
 }
