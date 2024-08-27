@@ -1,0 +1,38 @@
+.header {
+  align-items: center;
+  color: #FFAD31;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Gloucester', sans-serif;
+  max-width: 1366px;
+  z-index: 1;
+}
+
+.nav-header {
+  display: flex;
+  font-size: 1rem;
+  gap: 37px;
+  margin-left: 560px;
+}
+
+.header-link {
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-link:hover {
+  color: #ffffff
+}
+
+.line-yellow {
+  position: relative;
+  top: 6px;
+  right: 0;
+  background-color: #FFAD31;
+  height: 2px;
+  width: 1366px;
+}
