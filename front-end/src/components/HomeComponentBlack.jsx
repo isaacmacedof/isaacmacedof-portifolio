@@ -1,9 +1,9 @@
-// import { useEffect } from "react";
-// import TypeIt from "typeit";
+import { useEffect } from "react";
+import TypeIt from "typeit";
 import '../styles/components/HomeComponentBlack.css';
 
 const HomeComponentBlack = () => {
-  /* const animation = () => {
+  const animation = () => {
     const name = ['Isaac Macêdo']
     new TypeIt("#home-my-name", {
       speed: 200,
@@ -19,7 +19,7 @@ const HomeComponentBlack = () => {
   
   useEffect(() => {
     animation();
-  }, []); */
+  }, [])
 
   return (
     <section className='section-apresentation'>
