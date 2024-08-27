@@ -36,3 +36,7 @@
 .britannic {
   font-family: 'Britannic', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

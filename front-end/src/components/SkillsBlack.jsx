@@ -4,7 +4,7 @@ import bgSkills from '../images/black-bg-skills.png';
 import '../styles/components/SkillsBlack.css';
 
 const SkillsBlack = () => {
-  const [hoveredElement, setHoveredElement] = useState({ id: '', alt: '', description: '' });
+  const [hoveredElement, setHoveredElement] = useState({ id: skills[0].id, alt: skills[0].name, description: skills[0].description });
 
   const handleMouseOver = (event) => {
     const element = event.target;
@@ -23,7 +23,7 @@ const SkillsBlack = () => {
     console.log(hoveredElement);
   };
   return (
-    <section className='section-skills'>
+    <section id='skills' className='section-skills'>
       <div className='bg-skills'>
         <img src={bgSkills} alt='bg-skills' className='img-bg-skills' />
       </div>

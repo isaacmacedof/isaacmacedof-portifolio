@@ -4,10 +4,9 @@ import '../styles/components/ProjectsBlack.css';
 
 const ProjectsBlack = () => {
   const projects = projectsData;
-  console.log(projects);
   
   return (
-    <section className="section-projects-black">
+    <section id='projects' className="section-projects-black">
       <div className='bg-projects-black'>
         <img src={bgProjetos} alt='bg-projects' className='img-bg-projects' />
       </div>
