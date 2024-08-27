@@ -4,16 +4,15 @@ import '../styles/components/HomeComponentBlack.css';
 
 const HomeComponentBlack = () => {
   const animation = () => {
-    const name = ['Isaac Macêdo']
+    const name = 'Isaac Macêdo'
     new TypeIt("#home-my-name", {
       speed: 200,
       waitUntilVisible: true,
       loop: true,
     })
+    .type(name)
     .pause(500)
-    .type(name[0])
-    .pause(2000)
-    .delete(name[0].length)
+    .delete(name)
     .go()
   };
   
