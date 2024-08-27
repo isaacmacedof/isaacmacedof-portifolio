@@ -26,7 +26,7 @@ const HomeComponentBlack = () => {
       <article className='article-containt-apresentation'>
         <div className="home-text-apresentation">
           <p id='apresentation-basic' className='gloucester'>Olá eu sou</p>
-          <p id='home-my-name' className='britannic'>Isaac Macêdo</p>
+          <p id='home-my-name' className='britannic'></p>
           <p id='home-title' className='gloucester'>Desenvolvedor <br /> Full-stack</p>
           <button className="button-contact">
             <div className="art-button">
