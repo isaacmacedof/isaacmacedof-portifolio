@@ -11,7 +11,7 @@ const HomeComponentBlack = () => {
       loop: true,
     })
     .type(name)
-    .pause(500)
+    .pause(4000)
     .delete(name)
     .go()
   };
