@@ -5,7 +5,7 @@ export const projectsData = [
     title: "Picture Edite",
     tags: ["JavaScript", "React", "Context API"],
     tagsExibition: ["JavaScript", "React", "Context API"],
-    description: "Visa simplificar edições simples sobrepondo fotos em quantidade, com o intuito de poupar força de trabalho.",
+    description: `Picture Edite é uma solução desenvolvida para uma empresa de seguros que enfrentava o desafio de produzir imagens personalizadas para um grande número de funcionários. Com a necessidade de incluir informações individuais em imagens promocionais, a empresa buscava uma maneira eficiente de realizar essa tarefa sem sobrecarregar os designers. Assim, nasceu o Picture Edite, um sistema prático e rápido que permite aos colaboradores selecionarem uma imagem e, utilizando JavaScript junto à biblioteca React, realizar a captura, corte e edição automática das imagens estabelecidas pela empresa. Essa solução eliminou a necessidade de mão de obra dedicada, permitindo um processo de "self-service" eficiente e eficaz para os colaboradores.`,
     deployLink: "https://main--picture-edite.netlify.app/",
     repoLink: "https://github.com/isaacmacedof/Picture-Edite",
     imgSrc: pictureEdite,

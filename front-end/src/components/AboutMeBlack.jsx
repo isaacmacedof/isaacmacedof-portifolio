@@ -20,7 +20,7 @@ const AboutMeBlack = () => {
           <article className='article-about-me-text'>
             <p className='about-des01 gloucester'>
               Olá, meu nome é Isaac e sou um apaixonado por tecnologia em transição de carreira. Anteriormente, trabalhei como técnico administrativo, onde desenvolvi habilidades valiosas em comunicação, organização, proatividade e outras soft skills essenciais. Recentemente, tive a oportunidade de seguir meu sonho de ingressar na área de tecnologia através da Trybe, onde estou aprendendo a programar e a desenvolver projetos incríveis.
-              Iniciei uma faculdade na área de TI, mas tive que trancar por motivos pessoais. No entanto, isso não me impediu de continuar estudando e me aprimorando. Atualmente, estou estudando Desenvolvimento Web Full Stack
+              Iniciei uma faculdade de Tecnologo em Banco de Dados pela PUC - Minas e desejo continuar estudando e me aprimorando cada vez. Espero conseguir me tornar cada vez mais um profissional completo e experiente.
             </p>
           </article>
           <a href='#contact' className="button-contact-about">
