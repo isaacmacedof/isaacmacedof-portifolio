@@ -41,8 +41,9 @@
 .aside-programer-about-me {
   margin-top: -60px;
   display: block !important;
-  background: none;
-  margin-left: 7px;
+  background: black;
+  margin-left: 70px;
+  z-index: 1;
 }
 
 .img-programer-about-me {
@@ -59,18 +60,20 @@
   background: none;
 }
 
-.line-yellow-about-right-line {
-  position: relative;
+/* .line-yellow-about-right-line {
+  position: absolute;
   background-color: #FFAD31;
   height: 2px;
-  width: 870px;
-}
+  width: 60.6%;
+} */
 
 .line-yellow-about-left-line {
+  position: absolute;
+  top: 1030px;
   background-color: #FFAD31;
-  width: 91px;
+  left: 0;
+  width: 198.6vh;
   height: 2px;
-  margin-left: -10px;
 }
 
 .art-button-about {
