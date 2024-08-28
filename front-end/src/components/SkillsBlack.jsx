@@ -30,9 +30,9 @@ const SkillsBlack = () => {
         <img src={bgSkills} alt='bg-skills' className='img-bg-skills' />
       </div>
       <main className='article-skills'>
-        <div className='skills-title'>
+        <div className='skills-title-container'>
           <div className='skills-bg-line-left' />
-            <p className='about-title'>Skills</p>
+            <p className='skills-title'>Skills</p>
           <div className='skills-bg-line-right' />
         </div>
         <article className='skills-list'>
