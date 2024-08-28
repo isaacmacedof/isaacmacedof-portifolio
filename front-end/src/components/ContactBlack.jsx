@@ -21,23 +21,22 @@ const ContactBlack = () => {
             </div>
           </div>
           <div className='icons-contact-container'>
-            <div className='mini-container-ico'>
+            <a target='_blank' href='https://github.com/isaacmacedof' className='mini-container-ico'>
               <img src={ gitHubIcon } alt='git hub icon' className='icons-contact correction' />
-            </div>
+            </a>
             <div className='mini-container-ico'>
               <img src={ discordIcon } alt='discord icon' className='icons-contact' />
             </div>
-            <div className='mini-container-ico'>
+            <a href='https://www.linkedin.com/in/isaac-macedo-dev/' target='_blank' className='mini-container-ico'>
               <img src={ linkedinIcon } alt='linkedin icon' className='icons-contact' /> 
-            </div>
-            <div className='mini-container-ico'>
+            </a>
+            <a target='_blank' href='https://www.instagram.com/isaac.macedotr/' className='mini-container-ico'>
               <img src={ instaIcon } alt='instagram icon' className='icons-contact correction' />
-            </div>
-            <div className='mini-container-ico'>
+            </a>
+            <a target='_blank' href='https://is.gd/isaacmacedofportifolio' className='mini-container-ico'>
               <img src={ emailIcon } alt='email icon' className='icons-contact' />
-            </div>
+            </a>
           </div>
-          <div className='line-yellow-above' />
         </article>
         <aside>
           <div className='contact-img-container'>
@@ -45,6 +44,7 @@ const ContactBlack = () => {
           </div>
         </aside>
       </main>
+      <div className='line-yellow-above' />
     </section>
   )
 }

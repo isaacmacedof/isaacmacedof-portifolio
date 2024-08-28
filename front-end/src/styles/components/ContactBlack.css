@@ -20,7 +20,7 @@
   width: 488px;
   height: 778px;
   margin-bottom: -100px;
-  margin-left: -490px;
+  margin-left: -20px;
   background: none;
   z-index: 2;
 }
@@ -97,7 +97,9 @@
 }
 
 .line-yellow-above {
-  width: 1366px;
+  position: absolute;
+  width: 99.2vw;
+  top: 4200px;
   height: 2px;
   background-color: #FFAD31;
   z-index: 1;
