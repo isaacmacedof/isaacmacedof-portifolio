@@ -23,13 +23,13 @@ const AboutMeBlack = () => {
               Iniciei uma faculdade na área de TI, mas tive que trancar por motivos pessoais. No entanto, isso não me impediu de continuar estudando e me aprimorando. Atualmente, estou estudando Desenvolvimento Web Full Stack
             </p>
           </article>
-          <button className="button-contact-about">
+          <a href='#contact' className="button-contact-about">
             <div className="art-button-about">
               <p className="text-button-contact-about britannic">
                 Contato
               </p>
             </div>
-          </button>
+          </a>
         </div>
       </article>
     </section>
