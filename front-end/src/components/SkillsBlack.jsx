@@ -4,7 +4,7 @@ import bgSkills from '../images/black-bg-skills.png';
 import '../styles/components/SkillsBlack.css';
 
 const SkillsBlack = () => {
-  const [hoveredElement, setHoveredElement] = useState({ id: skills[0].id, alt: skills[0].name, description: skills[0].description });
+  const [hoveredElement, setHoveredElement] = useState(null);
 
   const handleMouseOver = (event) => {
     const element = event.target;
@@ -22,6 +22,8 @@ const SkillsBlack = () => {
     }
     console.log(hoveredElement);
   };
+
+  const exibion = hoveredElement !== null ? 'exibition' : 'outExibition';
   return (
     <section id='skills' className='section-skills'>
       <div className='bg-skills'>
@@ -35,30 +37,27 @@ const SkillsBlack = () => {
         </div>
         <article className='skills-list'>
           <div className='container-description-skill'>
-            <p className='description-skill-text gloucester'>
-              *Passe o cursor do mouse para ler*
-            </p>
-            <div className='description-skill'>
             {
-              hoveredElement.id && (
+              hoveredElement ? (
                 <div className='description-skill-countainer'>
-                  <p className='description-skill-text gloucester'>
-                    {hoveredElement.alt} <br /> <br />
+                  <p className='description-skill-text-title gloucester'>
+                    {hoveredElement.alt}
                   </p>
                    <p className='description-skill-text gloucester'>
                       {hoveredElement.description}
                    </p>
                 </div>
-              )
+              ) : (<p className='description-skill-text gloucester'>
+                *Passe o cursor do mouse para ler*
+              </p>)
             }
-            </div>
-            <button className="button-contact-skill">
+            <a href='#contact' className={ `button-contact-skill ${ exibion }` }>
               <div className="art-button">
                 <p className="text-button-contact britannic">
                   Contato
                 </p>
               </div>
-            </button>
+            </a>
           </div>
           <div className='container-images-skills' onMouseOver={handleMouseOver}>
             {skills.map((skill) => (

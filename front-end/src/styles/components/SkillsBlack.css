@@ -43,6 +43,7 @@
 }
 
 .button-contact-skill {
+  display: relative;
   background: none;
   border: none;
   cursor: pointer;
@@ -54,6 +55,14 @@
   position: relative;
   transition: background-color 0.3s, border-color 0.3s;
   z-index: 2;
+}
+
+.outExibition {
+  top: 355px;
+}
+
+.exibition {
+  top: 80px
 }
 
 .img-bg-skills{
@@ -94,6 +103,22 @@
   width: 848px;
   padding: 5px;
   margin-right: 20px;
+}
+
+.description-skill-text-title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.description-skill-countainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin-top: 0px;
+  max-width: 700px;
+  max-height: 370px;
 }
 
 .description-skill-text {
