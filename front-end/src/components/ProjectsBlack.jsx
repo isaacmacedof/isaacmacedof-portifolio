@@ -11,9 +11,9 @@ const ProjectsBlack = () => {
         <img src={bgProjetos} alt='bg-projects' className='img-bg-projects' />
       </div>
       <main className='article-skills'>
-        <div className='skills-title'>
+        <div className='project-title-container'>
           <div className='projects-bg-line-left' />
-            <p className='about-title'>Projects</p>
+            <p className='project-title-all'>Projects</p>
           <div className='projects-bg-line-right' />
         </div>
         <article className='project-list'>
