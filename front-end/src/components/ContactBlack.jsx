@@ -33,7 +33,7 @@ const ContactBlack = () => {
             <a target='_blank' href='https://www.instagram.com/isaac.macedotr/' className='mini-container-ico'>
               <img src={ instaIcon } alt='instagram icon' className='icons-contact correction' />
             </a>
-            <a target='_blank' href='https://is.gd/isaacmacedofportifolio' className='mini-container-ico'>
+            <a target='_blank' href='mailto:isaacmacedotr@gmail.com' className='mini-container-ico'>
               <img src={ emailIcon } alt='email icon' className='icons-contact' />
             </a>
           </div>
