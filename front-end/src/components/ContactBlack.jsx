@@ -24,9 +24,9 @@ const ContactBlack = () => {
             <a target='_blank' href='https://github.com/isaacmacedof' className='mini-container-ico'>
               <img src={ gitHubIcon } alt='git hub icon' className='icons-contact correction' />
             </a>
-            <div className='mini-container-ico'>
+            <a target='_blank' href='https://discord.gg/D6bMM6KfpZ' className='mini-container-ico'>
               <img src={ discordIcon } alt='discord icon' className='icons-contact' />
-            </div>
+            </a>
             <a href='https://www.linkedin.com/in/isaac-macedo-dev/' target='_blank' className='mini-container-ico'>
               <img src={ linkedinIcon } alt='linkedin icon' className='icons-contact' /> 
             </a>
