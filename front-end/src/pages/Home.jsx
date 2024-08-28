@@ -9,6 +9,7 @@ import '../styles/pages/Home.css';
 const Home = () => {
   return (
     <main className='home'>
+      <div className='line-Yellow-aside'></div>
       <HeaderBlack />
       <HomeComponentBlack />
       <AboutMeBlack />
