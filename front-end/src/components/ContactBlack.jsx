@@ -37,7 +37,6 @@ const ContactBlack = () => {
               <img src={ emailIcon } alt='email icon' className='icons-contact' />
             </a>
           </div>
-          <div className='line-yellow-above' />
         </article>
         <aside>
           <div className='contact-img-container'>
@@ -45,6 +44,7 @@ const ContactBlack = () => {
           </div>
         </aside>
       </main>
+      <div className='line-yellow-above' />
     </section>
   )
 }
