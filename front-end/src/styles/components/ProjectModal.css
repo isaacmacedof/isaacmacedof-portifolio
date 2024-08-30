@@ -16,16 +16,50 @@
   padding: 20px;
   border-radius: 15px;
   width: 80%;
-  max-width: 900px;
-  max-height: 900px;
+  max-width: 50%;
+  max-height: 85%;
   position: relative;
+  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+}
+
+/* Estilizando a barra de rolagem para navegadores WebKit (Chrome, Safari) */
+.modal-content::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Cor do fundo da barra de rolagem */
+  border-radius: 10px; /* Borda arredondada da área de rolagem */
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #444; /* Cor da barra de rolagem */
+  border-radius: 10px; /* Borda arredondada da barra de rolagem */
+  border: 2px solid #2a2a2a; /* Borda ao redor da barra de rolagem */
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor ao passar o mouse sobre a barra de rolagem */
+}
+
+/* Estilizando a barra de rolagem para o Firefox */
+.modal-content {
+  scrollbar-width: thin; /* Largura da barra de rolagem */
+  scrollbar-color: #444 #1a1a1a; /* Cor da barra de rolagem e do fundo */
+}
+
+.modal-container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: none;
 }
 
 .modal-project-title {
   font-size: 42px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
-  margin-left: 320px;
   background: none;
 }
 
@@ -33,6 +67,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: -0px;
+  margin-bottom: 0px;
   font-size: 20px;
   background: none;
 }
@@ -43,14 +78,23 @@
   background: none;
 }
 
+.modal-project-description-container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
 .modal-project-description-title {
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   background: none;
 }
 
 .modal-project-description-text {
   font-size: 20px;
+  padding: 10px;
   background: none;
 }
 
@@ -63,7 +107,15 @@
   cursor: pointer;
 }
 
+.modal-container-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
 .modal-image {
-  width: 100%;
+  width: 70%;
   height: auto;
 }

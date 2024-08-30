@@ -71,8 +71,8 @@
 }
 
 .projects-img-container {
-  max-height: 232px;
-  max-width: 232px;
+  max-height: 231px;
+  max-width: 282px;
   border: #500086 2px solid;
   z-index: 1;
 }
@@ -95,8 +95,8 @@
 }
 
 .projects-img {
-  height: 234px;
-  width: 227px;
+  height: 231px;
+  width: 228px;
   z-index: 1;
 }
 
