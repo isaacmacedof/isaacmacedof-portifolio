@@ -115,6 +115,72 @@
   background: none;
 }
 
+.modal-project-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+  background: none;
+}
+
+.modal-project-button-deploy {
+  background: #FFAD31;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-project-button-deploy:hover {
+  background: #500086;
+  .modal-button-deploy a {
+    color: #fff;
+  }
+}
+
+.modal-button-deploy {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.modal-button-deploy a {
+  text-decoration: none;
+  background: none;
+  font-size: 25px;
+  color: #000000;
+}
+
+.modal-project-button-repo {
+  background: #500086;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-project-button-repo:hover {
+  background: #FFAD31;
+  .modal-button-repo a {
+    color: #fff;
+  }
+}
+
+.modal-button-repo {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.modal-button-repo a {
+  text-decoration: none;
+  background: none;
+  font-size: 25px;
+  color: #000000;
+}
+
 .modal-image {
   width: 70%;
   height: auto;
