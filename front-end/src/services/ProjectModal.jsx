@@ -18,12 +18,30 @@ const ProjectModal = ({ project, onClose }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <span className="modal-close" onClick={onClose}>&times;</span>
-        <h2 className='modal-project-title'>{project.title}</h2>
-        <img src={project.imgSrc} alt={project.title} className="modal-image" />
-        <p className='modal-project-tags'>Tecnologias utilizadas: {project.tagsExibition.join(" - ")}</p>
+        <div className='modal-container-title'>
+          <h2 className='modal-project-title'>{project.title}</h2>
+        </div>
+        <div className='modal-container-image'>
+          <img src={project.imgSrc} alt={project.title} className="modal-image" />
+          <p className='modal-project-tags'>Tecnologias utilizadas: {project.tagsExibition.join(" - ")}</p>
+        </div>
         <div className='modal-project-description-container'>
-          <h3 className='modal-project-description-title'>Descrição</h3>
+          <div className='modal-project-description-container-title'>
+            <h3 className='modal-project-description-title'>Descrição</h3>
+          </div>
           <p className='modal-project-description-text'>{project.description}</p>
+          <div className='modal-project-button'>
+            <div className='modal-project-button-deploy'>
+              <button className='modal-button-deploy'>
+                <a href={project.deployLink} target='_blank' rel='noreferrer'>Deploy</a>
+              </button>
+            </div>
+            <div className='modal-project-button-repo'>
+              <button className='modal-button-repo'>
+                <a href={project.repoLink} target='_blank' rel='noreferrer'>Repository</a>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,6 +54,8 @@ ProjectModal.propTypes = {
     imgSrc: PropTypes.string.isRequired,
     tagsExibition: PropTypes.arrayOf(PropTypes.string).isRequired,
     description: PropTypes.string.isRequired,
+    deployLink: PropTypes.string.isRequired,
+    repoLink: PropTypes.string.isRequired,
   }).isRequired,
   onClose: PropTypes.func.isRequired,
 };
